@@ -1,0 +1,127 @@
+.header {
+   width: 1280px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: center;
+}
+.header__head {
+   width: 946px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 54px;
+   padding-bottom: 115px;
+}
+
+.head__logo {
+   width: 167px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content: space-between;
+}
+.head__logo h2 {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 28px;
+   text-transform: uppercase;
+}
+
+.head__social {
+   width: 180px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.githab a {
+   fill: #ffffff;
+}
+.githab a:hover {
+   fill: #2f0eec;
+   cursor: pointer;
+}
+.twitter a {
+   fill: #ffffff;
+}
+.twitter a:hover {
+   fill: #2f0eec;
+   cursor: pointer;
+}
+.instagram a {
+   fill: #ffffff;
+}
+.instagram a:hover {
+   fill: #2f0eec;
+   cursor: pointer;
+}
+
+.facebook a {
+   fill: #ffffff;
+}
+.facebook a:hover {
+   fill: #2f0eec;
+   cursor: pointer;
+}
+.header__content {
+   width: 936px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   padding-bottom: 155px;
+}
+.content__content {
+   width: 420px;
+}
+.content__content h2 {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+   color: #ffbb01;
+   padding-bottom: 15px;
+   text-transform: capitalize;
+}
+.content__content h1 {
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 59px;
+   text-transform: capitalize;
+   padding-bottom: 15px;
+}
+.content__content p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 28px;
+   text-transform: inherit;
+   padding-bottom: 38px;
+}
+.content__btn input {
+   width: 285px;
+   text-align: center;
+   background: linear-gradient(180deg, #fdde76 0%, #ffbb01 100%);
+   box-shadow: 0px 4px 0px #b68500;
+   border-radius: 5px 5px 10px 10px;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 14px;
+   padding: 24px;
+}
+
+.content__btn input:hover {
+   cursor: pointer;
+}
+
+.content__img img {
+   width: 430px;
+   border: 10px solid #ffffff;
+   border-radius: 50%;
+}

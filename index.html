@@ -4,6 +4,17 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   <!-- Bootstrap CSS -->
+   <!-- JavaScript -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"></script>
+   <!-- JavaScript -->
+
    <link rel="stylesheet" href="style/style.css">
    <title>Влад Быстров</title>
 </head>
@@ -20,9 +31,10 @@
                <a href="#">
                   <img src="img/logo/image.svg" alt="logo">
                </a>
-               <h2>glo academy</h2>
+               <h2>учебный проект</h2>
             </div>
             <div class="head__social">
+               <!-- githab -->
                <div class="githab">
                   <a href="#">
                      <svg width="35" height="35" viewBox="0 0 18 17" xmlns="http://www.w3.org/2000/svg">
@@ -48,6 +60,7 @@
                         </svg>
                   </a>
                </div>
+               <!-- facebook -->
                <div class="facebook">
                   <a href="#">
                      <svg width="35" height="35" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
@@ -64,12 +77,12 @@
             <!-- content__content -->
             <div class="content__content">
                <h2>Фрилансер</h2>
-               <h1>Артем Исламов</h1>
-               <p>Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
+               <h1>влад быстров</h1>
+               <p>Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать верстку небольшого сайта или интернет-магазина</p>
             </div>
             <!-- content__img -->
             <div class="content__img">
-               <img src="img/hero/image.jpg" alt="">
+               <img src="img/hero/MyFoto.jpg" alt="">
             </div>
             <div class="content__btn">
                <a href="#">
@@ -140,13 +153,99 @@
             <div class="features__title">
                <h2>Последние проекты</h2>
             </div>
-            <!-- начинается слайдер -->
-            <div class="projects__content">
-               <div class="projects__slider">
+            <!-- carousel -->
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+               <div class="carousel-indicators">
+                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+               </div>
+               <div class="carousel-inner">
+                 <div class="carousel-item active" data-bs-interval="100000">
                   <div class="slider__img">
-                     <img src="img/slider_block/project-img.png" alt="project-img">
+                     <img src= "img/slider_block/2023-02-02_11-07-47.png" alt="...">
                   </div>
-                  <div class="slider__desc">
+                   
+                   <!-- описание -->
+                   <div class="slider__desc">
+                     <div class="desc__title"><h2>Сайт портфолио</h2></div>
+                     <div class="desc__content">
+                        <div class="content__desc">
+                           <div class="desc__img">
+                              <img src="img/slider_block/slider-text/time-icon.svg" alt="">
+                           </div>
+                           <div class="desc__block">
+                              <div class="desc__subtitle"><h3>Сроки</h3></div>
+                              <div class="desc__text"><h3>4 рабочих дня</h3></div>
+                           </div>
+                        </div>
+                        <div class="content__desc">
+                           <div class="desc__img">
+                              <img src="img/slider_block/slider-text/cost-icon.svg" alt="">
+                           </div>
+                           <div class="desc__block">
+                              <div class="desc__subtitle"><h3>Стоимость</h3></div>
+                              <div class="desc__text"><h3>14 000 рублей </h3></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="desc__feedback">
+                        <div class="feedback__img">
+                           <img src="img/slider_block/slider-text/feedback-icon.svg" alt="Скриншот портфолио">
+                        </div>
+                        <div class="feedback__text">
+                           <h3>Описание</h3>
+                           <p>Первый сайт Портфолио. Делал по макету формата PSD. Его можно посмотреть по ссылке скиллс.рф Карусель делал с помощью CSS. Все ссылки рабочии. Иконки в формате SVG. Тоже все рабочии. Верстка с помощью Flexbox.</p>
+                        </div>
+                     </div>
+                  </div>
+                   <!-- описание -->
+                 </div>
+                 <div class="carousel-item" data-bs-interval="20000">
+                  <div class="slider__img">
+                     <img src= "img/slider_block/Screenshot 2023-03-13 at 00-53-59 Влад Быстров.png" alt="Скриншот учебного сайта">
+                  </div>
+                    <!-- описание -->
+                    <div class="slider__desc">
+                     <div class="desc__title"><h2>Учебный сайт</h2></div>
+                     <div class="desc__content">
+                        <div class="content__desc">
+                           <div class="desc__img">
+                              <img src="img/slider_block/slider-text/time-icon.svg" alt="">
+                           </div>
+                           <div class="desc__block">
+                              <div class="desc__subtitle"><h3>Сроки</h3></div>
+                              <div class="desc__text"><h3>4 рабочих дня</h3></div>
+                           </div>
+                        </div>
+                        <div class="content__desc">
+                           <div class="desc__img">
+                              <img src="img/slider_block/slider-text/cost-icon.svg" alt="">
+                           </div>
+                           <div class="desc__block">
+                              <div class="desc__subtitle"><h3>Стоимость</h3></div>
+                              <div class="desc__text"><h3>14 000 рублей </h3></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="desc__feedback">
+                        <div class="feedback__img">
+                           <img src="img/slider_block/slider-text/feedback-icon.svg" alt="">
+                        </div>
+                        <div class="feedback__text">
+                           <h3>Описание</h3>
+                           <p>Сайт создавал по макету Figma. Слайдер использовал с Bootstrap. Чутка изменил. Адаптив сайта под три разрешения. Компьютер, ноутбук, планшет. Все надписи заменяемы. Картинки тоже. На githab выложил исходники. </p>
+                        </div>
+                     </div>
+                  </div>
+                   <!-- описание -->
+                 </div>
+                 <div class="carousel-item">
+                  <div class="slider__img">
+                     <img src= "img/slider_block/project-img.png" alt="...">
+                  </div>
+                    <!-- описание -->
+                    <div class="slider__desc">
                      <div class="desc__title"><h2>Сайт строительной фирмы “Велстрой”</h2></div>
                      <div class="desc__content">
                         <div class="content__desc">
@@ -174,13 +273,23 @@
                         </div>
                         <div class="feedback__text">
                            <h3>Отзыв клиента</h3>
-                           <p>Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+                           <p>Здесь не чего не менял. как было в макете так и оставил.</p>
                         </div>
                      </div>
                   </div>
+                   <!-- описание -->
+                 </div>
                </div>
-            </div>
-            <!-- заканчивается слайдер -->
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Предыдущий</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                 <span class="visually-hidden">Следующий</span>
+               </button>
+             </div>
+            <!-- carousel -->
          </div>
       </div>
       <!-- projects -->
